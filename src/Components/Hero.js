@@ -87,16 +87,16 @@ export default () => {
       <section className="mt-24 mx-auto max-w-screen-xl pb-4 px-4 sm:px-8">
         <div className="text-center space-y-4">
           <h1 className="text-gray-800 font-bold text-4xl md:text-5xl">
-            Optimize your website for
-            <span className="text-indigo-600"> Search engine</span>
+            Hey its Kartik, <br /> I am a
+            <span className="text-indigo-600"> Software Developer</span>
           </h1>
-          <p className="text-gray-500 max-w-xl mx-auto leading-relaxed">
+          {/* <p className="text-gray-500 max-w-xl mx-auto leading-relaxed">
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout. The point
             of using Lorem Ipsum
-          </p>
+          </p> */}
         </div>
-        <div className="mt-12 justify-center items-center space-y-3 sm:space-x-6 sm:space-y-0 sm:flex">
+        {/* <div className="mt-12 justify-center items-center space-y-3 sm:space-x-6 sm:space-y-0 sm:flex">
           <a
             href="javascript:void(0)"
             className="px-10 py-3.5 w-full bg-indigo-600 text-white text-center rounded-md shadow-md block sm:w-auto"
@@ -109,7 +109,7 @@ export default () => {
           >
             Try it out
           </a>
-        </div>
+        </div> */}
       </section>
     </>
   );
