@@ -5,16 +5,16 @@ export default () => {
 
   // Replace javascript:void(0) path with your path
   const navigation = [
-    { title: "Customers", path: "javascript:void(0)" },
-    { title: "Careers", path: "javascript:void(0)" },
-    { title: "Guides", path: "javascript:void(0)" },
-    { title: "Partners", path: "javascript:void(0)" },
+    { title: "Home", path: "javascript:void(0)" },
+    { title: "Tech Stack", path: "javascript:void(0)" },
+    { title: "Projects", path: "javascript:void(0)" },
+    { title: "Education", path: "javascript:void(0)" },
   ];
 
   return (
     <>
       <header>
-        <nav className="items-center pt-5 px-4 mx-auto max-w-screen-xl sm:px-8 md:flex md:space-x-6">
+        <nav className="items-cente pt-5 px-4 mx-auto max-w-screen-xl sm:px-8 md:flex md:space-x-6">
           <div className="flex justify-between">
             <a href="javascript:void(0)">
               <img
@@ -71,7 +71,7 @@ export default () => {
                 href="javascript:void(0)"
                 className="py-3 px-6 rounded-md shadow-md text-white text-center bg-indigo-500 focus:shadow-none block md:inline"
               >
-                Sign In
+                Contact Me
               </a>
             </li>
             <div className="order-1 flex-1 justify-center items-center space-y-5 md:flex md:space-x-6 md:space-y-0">
